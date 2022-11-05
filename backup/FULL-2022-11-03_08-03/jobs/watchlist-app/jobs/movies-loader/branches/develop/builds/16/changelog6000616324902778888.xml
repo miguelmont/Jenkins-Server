@@ -1,0 +1,12 @@
+commit ddbec0c642ba1d502e37730956d574c85c034798
+tree e701a2d6cb78da99cf472377d87a929e2bbce7c4
+parent c9e72fa1aa59ff5e1bcfca9bb49694233eebeb50
+author Miguel Mont <imre027@gmail.com> 2022-11-02 20:10:48 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-02 20:10:48 -0600
+
+    Adding junit report
+
+
+:100644 100644 8a6bee78b8b7c7d195ac891510adf358e4eae483 4fa11c2bf49cbb5ef53644b94ee0aeb91975c018 M	Dockerfile.test
+:100644 100644 fa27b55f79bb0c00eb844f05711d9dcfe2fcf9b8 7e4bb692393e584c81aba6e17d680b2c82c3077c M	Jenkinsfile
+:100644 100644 6b500359133dfdbdbe3639e23a41eea1cb45a275 a8c5013b56de84482cc1e6509c1974a70dd7bfc2 M	requirements.txt

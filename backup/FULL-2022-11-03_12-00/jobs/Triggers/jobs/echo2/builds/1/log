@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4CKxt45ZwrU0dYfjDvMiEMzSizZV5jmL3eAcCVpWgtiJAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/az8JP2Qosz09NSiYjAnNTkj31AfAJhcryfNAAAA[0mTriggers/echo1" build number [8mha:////4GIzkrZ+Dp5MLBVzM9Vhe2PDJov+XII074N2LAGtTRl/AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/ZCizPT01KJiMCc1OSPfUN8YADlQhijOAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Triggers/echo2
+[echo2] $ /bin/sh -xe /tmp/jenkins271720797776696427.sh
++ echo 'hello from echo2'
+/tmp/jenkins271720797776696427.sh: line 2: /var/lib/jenkins/workspace/triggers/echo1/output.txt: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

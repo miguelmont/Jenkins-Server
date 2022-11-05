@@ -1,0 +1,10 @@
+commit effeffd320d696f4e353bb9b392ff124478b0201
+tree 201a2b76a6bafe7ed156abca78444e4f236b3b68
+parent 834902823f2ab106eed9ee996b0d314f8e0a59e2
+author Miguel Mont <imre027@gmail.com> 2022-11-02 23:09:47 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-02 23:09:47 -0600
+
+    Adding junit report
+
+
+:100644 100644 a4f20bf452e6c157c76b2f703eb0bc2075e8f11a 838cef097c5c78eb48e729e09ed660fc6c886036 M	Jenkinsfile

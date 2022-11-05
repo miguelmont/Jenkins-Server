@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.319.3
+Plugin-Dependencies: workflow-step-api:639.v6eca_cd8c04a_a_,credential
+ s:1087.1089.v2f1b_9a_b_040e4,google-metadata-plugin:0.3.1,google-oaut
+ h-plugin:1.0.7,jackson2-api:2.13.3-285.vc03c0256d517,ssh-credentials:
+ 277.280.v1e86b_7d0056b_,structs:324.va_f5d6774f3a_d
+Implementation-Title: Google Cloud Storage plugin
+Long-Name: Google Cloud Storage plugin
+Implementation-Version: 1.5.7
+Group-Id: org.jenkins-ci.plugins
+Plugin-License-Name: The Apache V2 License
+Specification-Title: Google Cloud Storage plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/google-storage-plugin
+Plugin-Version: 1.5.7
+Jenkins-Version: 2.319.3
+Url: https://github.com/jenkinsci/google-storage-plugin/blob/develop/d
+ ocs/home.md
+Short-Name: google-storage-plugin
+Plugin-License-Url: https://www.apache.org/licenses/LICENSE-2.0
+Compatible-Since-Version: 1.5.0
+Plugin-Developers: Craig Barber:craigdbarber:craigbarber@google.com,St
+ ephen Shank:stephenashank:stephenshank@google.com
+Mask-Classes: com.google.common.
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.6.0
+Specification-Version: 1.5
+

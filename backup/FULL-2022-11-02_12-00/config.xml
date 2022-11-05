@@ -1,0 +1,128 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>hudson.diagnosis.TooManyJobsButNoView</string>
+    <string>jenkins.diagnostics.ControllerExecutorsAgents</string>
+    <string>org.jenkinsci.plugins.rolestrategy.NamingStrategyAdministrativeMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.361.2</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
+    <roleMap type="globalRoles">
+      <role name="admin" pattern=".*">
+        <permissions>
+          <permission>hudson.model.Hudson.Administer</permission>
+        </permissions>
+        <assignedSIDs>
+          <sid>miguelmont</sid>
+        </assignedSIDs>
+      </role>
+      <role name="developer" pattern=".*">
+        <permissions>
+          <permission>hudson.model.View.Create</permission>
+          <permission>hudson.model.View.Delete</permission>
+          <permission>hudson.model.Item.Read</permission>
+          <permission>hudson.model.View.Read</permission>
+        </permissions>
+        <assignedSIDs/>
+      </role>
+    </roleMap>
+    <roleMap type="projectRoles"/>
+    <roleMap type="slaveRoles"/>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds>
+    <com.google.jenkins.plugins.computeengine.ComputeEngineCloud plugin="google-compute-engine@4.3.12">
+      <name>gce-gce</name>
+      <instanceCap>8</instanceCap>
+      <projectId>forward-emitter-352908</projectId>
+      <credentialsId>forward-emitter-352908</credentialsId>
+      <instanceId>bf454538-2d61-4315-b21a-439478201aba</instanceId>
+      <configurations>
+        <com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+          <description>Ubuntu agent</description>
+          <namePrefix>ubuntu-2004-gce</namePrefix>
+          <region>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1</region>
+          <zone>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a</zone>
+          <machineType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/machineTypes/n1-standard-1</machineType>
+          <numExecutorsStr>3</numExecutorsStr>
+          <startupScript></startupScript>
+          <preemptible>false</preemptible>
+          <minCpuPlatform></minCpuPlatform>
+          <labels>ubuntu-2004-gce</labels>
+          <runAsUser>jenkins</runAsUser>
+          <bootDiskType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/diskTypes/pd-balanced</bootDiskType>
+          <bootDiskAutoDelete>true</bootDiskAutoDelete>
+          <bootDiskSourceImageName>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/images/jenkins-agent-1667377892</bootDiskSourceImageName>
+          <bootDiskSourceImageProject>forward-emitter-352908</bootDiskSourceImageProject>
+          <networkConfiguration class="com.google.jenkins.plugins.computeengine.AutofilledNetworkConfiguration">
+            <network>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/networks/default</network>
+            <subnetwork>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1/subnetworks/default</subnetwork>
+          </networkConfiguration>
+          <externalAddress>true</externalAddress>
+          <useInternalAddress>false</useInternalAddress>
+          <ignoreProxy>false</ignoreProxy>
+          <networkTags></networkTags>
+          <serviceAccountEmail>jenkins@forward-emitter-352908.iam.gserviceaccount.com</serviceAccountEmail>
+          <mode>EXCLUSIVE</mode>
+          <retentionTimeMinutesStr>6</retentionTimeMinutesStr>
+          <launchTimeoutSecondsStr>300</launchTimeoutSecondsStr>
+          <bootDiskSizeGbStr>50</bootDiskSizeGbStr>
+          <oneShot>false</oneShot>
+          <template></template>
+          <createSnapshot>false</createSnapshot>
+          <remoteFs></remoteFs>
+          <javaExecPath>java</javaExecPath>
+          <googleLabels>
+            <entry>
+              <string>jenkins_cloud_id</string>
+              <string>bf454538-2d61-4315-b21a-439478201aba</string>
+            </entry>
+            <entry>
+              <string>jenkins_config_name</string>
+              <string>ubuntu-2004-gce</string>
+            </entry>
+          </googleLabels>
+          <numExecutors>3</numExecutors>
+          <retentionTimeMinutes>6</retentionTimeMinutes>
+          <launchTimeoutSeconds>300</launchTimeoutSeconds>
+          <bootDiskSizeGb>50</bootDiskSizeGb>
+        </com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+      </configurations>
+      <noDelayProvisioning>false</noDelayProvisioning>
+    </com.google.jenkins.plugins.computeengine.ComputeEngineCloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

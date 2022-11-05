@@ -1,0 +1,10 @@
+commit 6a55b8b07707e473e8ea49d51690a848b4cfac93
+tree 49ad3e23a6235ba7ba26712580833b3ba8fdb91c
+parent 70e183773ff38f6986025515fca03309ed345a09
+author Miguel Mont <imre027@gmail.com> 2022-11-03 23:49:10 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-03 23:49:10 -0600
+
+    adding post builds send message to slack
+
+
+:100644 100644 8023fa378136897bec8429037430259101edc644 04b1ea44734cd382889755fe55db5f7ff1da1604 M	Jenkinsfile

@@ -1,0 +1,12 @@
+apple-clone/feature
+apple-clone_feature
+apple-clone/main
+apple-clone_main
+watchlist-app/movies-loader/develop
+chlist-app_movies-loader_develop
+watchlist-app/movies-marketplace/develop
+t-app_movies-marketplace_develop
+watchlist-app/movies-parser/develop
+chlist-app_movies-parser_develop
+watchlist-app/movies-store/develop
+tchlist-app_movies-store_develop

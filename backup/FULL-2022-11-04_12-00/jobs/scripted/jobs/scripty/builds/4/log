@@ -1,0 +1,14 @@
+Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/scripted/scripty
+No emails were triggered.
+[scripty] $ /bin/bash /tmp/jenkins3468363685030100168.sh
+This is an example of a script
+That is running in a build step
+This a param  This string
+36
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: miguel-angel.mont@outlook.com
+Not sent to the following valid addresses: miguel-angel.mont@outlook.com
+Finished: SUCCESS

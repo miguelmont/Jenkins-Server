@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1046.v0ca_37783ecc5">
+  <sourceActions>
+    <entry>
+      <string>blueocean</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@4.13.0">
+          <remote>https://github.com/miguelmont/terraform-cloud-testing.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,7 @@
+Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building remotely on [8mha:////4GrbDRMwJTrgZ6OyogHtnO8eXEw4qb6HFI/tijnDy/HKAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQi/dKk0rySUl0jAwMT3fTkVF3DlKRKw2QAGrG/z9UAAAA=[0mubuntu-2004-gce-1dby1c (ubuntu-2004-gce) in workspace /tmp/workspace/gcetest
+[gcetest] $ /bin/sh -xe /tmp/jenkins7090051903533865490.sh
++ echo Hello, Jenkins
+Hello, Jenkins
+Finished: SUCCESS

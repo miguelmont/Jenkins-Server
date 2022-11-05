@@ -1,0 +1,28 @@
+Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sourced/scmjob
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/miguelmont/some_code.git
+ > git init /var/lib/jenkins/workspace/sourced/scmjob # timeout=10
+Fetching upstream changes from https://github.com/miguelmont/some_code.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/miguelmont/some_code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/miguelmont/some_code.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 21a9fc226d03350edd346c76165f73325701b4fd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 21a9fc226d03350edd346c76165f73325701b4fd # timeout=10
+Commit message: "removed"
+First time build. Skipping changelog.
+[scmjob] $ /bin/sh -xe /tmp/jenkins15744862892670091376.sh
++ chmod +x ./testscript.sh
++ ./testscript.sh
+this script is from github
+21
+This was added
+Finished: SUCCESS

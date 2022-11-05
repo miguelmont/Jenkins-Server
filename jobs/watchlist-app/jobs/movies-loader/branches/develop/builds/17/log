@@ -1,0 +1,90 @@
+Push event to branch develop
+[8mha:////4H+nDfn9I+aK3xRCBQ3iwKdm2JHE/q7y/H4fT6JngbUyAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL9c6kOAA0+vBTjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Obtained Jenkinsfile from 834902823f2ab106eed9ee996b0d314f8e0a59e2
+[8mha:////4HsdtGF54f1uGdrkulmpnMfeDfnNcwX+O1pR+s5SNQ0+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HqSmmC/+3XVIGC4qoi0Pi5BhpWffAp/y/80fk6QFGGBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+‘[8mha:////4PfhnwfXx/v+KC+25ZkWNPIMLt7wcThuTA0H/bueqXi8AAAAsB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQi/dKk0rySUlUjFyMDAxMglZ6cCiTNsksrk431Ad/f9ljcAAAA[0mubuntu-2004-gce-6kuyc3’ is offline
+Running on [8mha:////4PfhnwfXx/v+KC+25ZkWNPIMLt7wcThuTA0H/bueqXi8AAAAsB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQi/dKk0rySUlUjFyMDAxMglZ6cCiTNsksrk431Ad/f9ljcAAAA[0mubuntu-2004-gce-6kuyc3 in /tmp/workspace/chlist-app_movies-loader_develop
+[8mha:////4NGwgnE9J/fFPPIQe0GL2YY0CDvepfbRyFV7nwhJjcTEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PzFZTu7DkkzFVyovEhF3HvMrf2qB+NvKVwO46Q3+aFoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HvefKeIUkMQgLQ/FDH9y4kMZgtrhVCoQi2+j3Px+R9WAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4BM4jdqjkNLF6KgYbnFAJTttf05BpsQ55gGtrs7avtYaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential github
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/miguelmont/watchlist-app-moviesloader.git
+ > git init /tmp/workspace/chlist-app_movies-loader_develop # timeout=10
+Fetching upstream changes from https://github.com/miguelmont/watchlist-app-moviesloader.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github credentials
+ > git fetch --no-tags --force --progress -- https://github.com/miguelmont/watchlist-app-moviesloader.git +refs/heads/develop:refs/remotes/origin/develop # timeout=10
+ > git config remote.origin.url https://github.com/miguelmont/watchlist-app-moviesloader.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/develop:refs/remotes/origin/develop # timeout=10
+Avoid second fetch
+Checking out Revision 834902823f2ab106eed9ee996b0d314f8e0a59e2 (develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 834902823f2ab106eed9ee996b0d314f8e0a59e2 # timeout=10
+Commit message: "Adding junit report"
+ > git rev-list --no-walk ddbec0c642ba1d502e37730956d574c85c034798 # timeout=10
+[8mha:////4FwIcrj0TeEmIjJWEK4Mm73pGbi7WNIY8r2tof2rxfv2AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Ni8G+5f6F7zX8KV3xG4awyb3KOl6hJimOmRqdjWOx3TAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BzuJaAt8thHwu8v6RibR+KSO66GXzmktTTBfMxNkt/mAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4EmojKh5oXC31ZgzObfHdT2HSyEFiIxsFhMlJActuEe+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Unit Tests)
+[8mha:////4OW45EV7fGvF/yN0BNT5rZ3PxALPT8ZU5snmys0I741AAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ sudo docker build -t miguelmont/movies-loader-test -f Dockerfile.test .
+Sending build context to Docker daemon  148.5kB
+Step 1/4 : FROM python:3.10-alpine
+3.10-alpine: Pulling from library/python
+213ec9aee27d: Pulling fs layer
+47858aee13bf: Pulling fs layer
+cfe0d6c6d05c: Pulling fs layer
+2df617b3dcd9: Pulling fs layer
+db25826960ff: Pulling fs layer
+2df617b3dcd9: Waiting
+db25826960ff: Waiting
+47858aee13bf: Verifying Checksum
+47858aee13bf: Download complete
+213ec9aee27d: Verifying Checksum
+213ec9aee27d: Download complete
+2df617b3dcd9: Verifying Checksum
+2df617b3dcd9: Download complete
+db25826960ff: Verifying Checksum
+db25826960ff: Download complete
+cfe0d6c6d05c: Verifying Checksum
+cfe0d6c6d05c: Download complete
+213ec9aee27d: Pull complete
+47858aee13bf: Pull complete
+cfe0d6c6d05c: Pull complete
+2df617b3dcd9: Pull complete
+db25826960ff: Pull complete
+Digest: sha256:03504748146cea12539306ef7eea0983e282a335bdf565e6becc1bec8535b00f
+Status: Downloaded newer image for python:3.10-alpine
+ ---> 4f0590338085
+Step 2/4 : WORKDIR /ap.
+ ---> Running in b1ce2e541078
+Removing intermediate container b1ce2e541078
+ ---> df86574b2bb2
+Step 3/4 : COPY test_main.py .
+ ---> 2d4d83e4ccb5
+Step 4/4 : COPY movies.json .
+ ---> 4141c2c6c760
+Successfully built 4141c2c6c760
+Successfully tagged miguelmont/movies-loader-test:latest
+[8mha:////4DNcmw+Bb9qQ/+Owa1odX6Z0ikDkNQ7NvpoJesD5pggNAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ sudo docker run --rm -v /home/jenkins/reports miguelmont/movies-loader-test
+[8mha:////4GDJopwWLkr8kjt2Bqc89w80uoDSQqSEMQuQQPOoqzEpAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] junit
+Recording test results
+No test report files were found. Configuration error?
+[8mha:////4FlnKhzY5qA6z6k9s9oFln993g2ANH0T01iN4+JZW5DtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] }
+[8mha:////4ETFLPdcr1aOl9/WDuLKJIq6sFEwy8zK+3SfrZMB3Bh0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] // stage
+[8mha:////4GxV/uHf5kp9pWAOa2Lx4EJnhobt/k4KMoRPbHAcxYZmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA5X3ZWC9AAAA[0m[Pipeline] }
+[8mha:////4OzhQEINue2mb4QkMdzYwlA1XuTefsnjw5OP3NCqKZ3kAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AOf1UXy9AAAA[0m[Pipeline] // node
+[8mha:////4JPbmH+JgDlTzPJNFG6b1+6jTYskIVy6tYds77nccuHYAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBwew2Nr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: No test report files were found. Configuration error?
+
+GitHub has been notified of this commit’s build result
+
+Finished: FAILURE

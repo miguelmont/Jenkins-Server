@@ -1,0 +1,10 @@
+commit 9c3a3e607bf21b5ee99eeedd7cfe66235b712663
+tree 20d619773c26ddd5bc3109119bb526c438c092fe
+parent f18365e68a478ad27e4ba83616234e8a963580fb
+author Miguel Mont <imre027@gmail.com> 2022-11-02 01:51:38 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-02 01:51:38 -0600
+
+    fix error in the pipeline
+
+
+:100644 100644 fcae9a655a192edbe93fa0e43683c0d2e93d51fa a8c7eef4af042ad90233e5b118b851a03ff18ec8 M	Jenkinsfile

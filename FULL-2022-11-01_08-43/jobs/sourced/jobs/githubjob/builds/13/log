@@ -1,0 +1,68 @@
+Started by remote host 187.189.246.21
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sourced/githubjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sourced/githubjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/miguelmont/some_code.git # timeout=10
+Fetching upstream changes from https://github.com/miguelmont/some_code.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/miguelmont/some_code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 54d07c732592421a958b1558e3906b225f384848 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54d07c732592421a958b1558e3906b225f384848 # timeout=10
+Commit message: "adding a final line"
+ > git rev-list --no-walk 54d07c732592421a958b1558e3906b225f384848 # timeout=10
+No emails were triggered.
+[githubjob] $ /bin/sh -xe /tmp/jenkins13994030668949541480.sh
++ chmod +x ./testscript.sh
++ ./testscript.sh
+this script is from github
+100
+This is the end of the script
+Email was triggered for: Always
+Sending email for trigger: Always
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 1: unexpected token: , @ line 1, column 1.
+   ,imre027@gmail.com
+   ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:349)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:225)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:191)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:189)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:966)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:626)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runScript(GroovySandbox.java:194)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.executeScript(ExtendedEmailPublisher.java:689)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.executePresendScript(ExtendedEmailPublisher.java:634)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.sendMail(ExtendedEmailPublisher.java:498)
+	at hudson.plugins.emailext.ExtendedEmailPublisher._perform(ExtendedEmailPublisher.java:444)
+	at hudson.plugins.emailext.ExtendedEmailPublisher.perform(ExtendedEmailPublisher.java:354)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:765)
+	at hudson.model.Build$BuildExecution.cleanUp(Build.java:189)
+	at hudson.model.Run.execute(Run.java:1946)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+
+Sending email to: miguel-angel.mont@outlook.com
+Not sent to the following valid addresses: miguel-angel.mont@outlook.com
+Finished: SUCCESS

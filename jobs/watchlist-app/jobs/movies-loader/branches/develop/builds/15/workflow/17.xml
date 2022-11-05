@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2803.v1a_f77ffcc773">
+    <parentIds>
+      <string>16</string>
+    </parentIds>
+    <id>17</id>
+    <startId>4</startId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1200.v8005c684b_a_c6"/>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1667441188460</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <error class="hudson.AbortException">
+        <detailMessage>No test report files were found. Configuration error?</detailMessage>
+        <stackTrace>
+          <trace>hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:184)</trace>
+          <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+          <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+          <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <hudson.remoting.Channel_-CallSiteStackTrace>
+            <detailMessage>Remote call to ubuntu-2004-gce-x6zast</detailMessage>
+            <stackTrace>
+              <trace>hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)</trace>
+              <trace>hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)</trace>
+              <trace>hudson.remoting.Channel.call(Channel.java:1000)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:1186)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:1175)</trace>
+              <trace>hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:118)</trace>
+              <trace>hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:157)</trace>
+              <trace>hudson.tasks.junit.JUnitResultArchiver.parseAndSummarize(JUnitResultArchiver.java:251)</trace>
+              <trace>hudson.tasks.junit.pipeline.JUnitResultsStepExecution.run(JUnitResultsStepExecution.java:63)</trace>
+              <trace>hudson.tasks.junit.pipeline.JUnitResultsStepExecution.run(JUnitResultsStepExecution.java:29)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+          </hudson.remoting.Channel_-CallSiteStackTrace>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

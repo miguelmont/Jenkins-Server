@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1153.v1c24f1a_d2553">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST/test/results/TEST-hellotest.xml</file>
+      <name>hellotest</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.069</duration>
+      <timestamp>2022-10-29T05:00:24</timestamp>
+      <time>0.069</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>hellotest</className>
+          <testName>testWillAlwaysFail</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>junit.framework.AssertionFailedError: An error message
+	at hellotest.testWillAlwaysFail(Unknown Source)
+</errorStackTrace>
+          <errorDetails>An error message</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>hellotest</className>
+          <testName>testNothing</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.069</duration>
+  <skipOldReports>false</skipOldReports>
+  <keepLongStdio>false</keepLongStdio>
+</result>

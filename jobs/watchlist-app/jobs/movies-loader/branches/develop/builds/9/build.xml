@@ -1,0 +1,89 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1249.v7d974144cc14">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1046.v0ca_37783ecc5">
+            <timestamp>1667376647281</timestamp>
+            <origin>140.82.115.93 ⇒ http://34.123.115.205:8080/github-webhook/</origin>
+            <description>Push event to branch develop</description>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@621.vda_a_b_055e58f7">
+      <sourceId>e27a4c74-2ea8-49ee-8716-8c9d36cc513d</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@4.12.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@1695.v88de84e9f6b_9">
+          <name>develop</name>
+        </head>
+        <hash>db8cdcef0cbd479742982b41bc35a74eb83cb53d</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@613.v9c41a_160233f">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>miguelmont</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>125</queueId>
+  <timestamp>1667376661946</timestamp>
+  <startTime>1667376661951</startTime>
+  <result>ABORTED</result>
+  <duration>321782</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>def imageName = &apos;miguelmont/movies-loader&apos;
+
+node(&apos;ubuntu-2004-gce&apos;){
+    stage(&apos;Checkout&apos;){
+        checkout scm
+    }
+
+    stage(&apos;Unit Tests&apos;){
+        sh &quot;docker build -t ${imageName}-test -f Dockerfile.test .&quot;
+        sh &quot;docker run --rm ${imageName}-test&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>32835253</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>108311553</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>58528463</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>71639653</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>6106247</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>5</iota>
+    <head>1:5</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

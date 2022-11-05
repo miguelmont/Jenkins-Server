@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.346.1
+Plugin-Dependencies: jackson2-api:2.13.3-285.vc03c0256d517
+Implementation-Title: Google Metadata plugin
+Long-Name: Google Metadata plugin
+Implementation-Version: 0.4
+Group-Id: org.jenkins-ci.plugins
+Support-Dynamic-Loading: true
+Plugin-License-Name: The Apache V2 License
+Specification-Title: Google Metadata plugin
+Plugin-ScmUrl: http://github.com/jenkinsci/google-metadata-plugin
+Plugin-Version: 0.4
+Jenkins-Version: 2.346.1
+Url: https://github.com/jenkinsci/google-metadata-plugin/blob/master/d
+ ocs/Documentation.md
+Short-Name: google-metadata-plugin
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0
+Plugin-Developers: Matt Moore:mattmoor:,Nghia Tran:tcnghia:
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.6.0
+Specification-Version: 0.4
+

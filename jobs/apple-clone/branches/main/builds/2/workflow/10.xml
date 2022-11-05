@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2803.v1a_f77ffcc773">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2803.v1a_f77ffcc773">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_AUTHOR_EMAIL=imre027@gmail.com</string>
+            <string>GIT_AUTHOR_NAME=miguel</string>
+            <string>GIT_BRANCH=main</string>
+            <string>GIT_COMMIT=7b15dcb658fdada5120017bd0512dd62d81c5032</string>
+            <string>GIT_COMMITTER_EMAIL=imre027@gmail.com</string>
+            <string>GIT_COMMITTER_NAME=miguel</string>
+            <string>GIT_LOCAL_BRANCH=main</string>
+            <string>GIT_PREVIOUS_COMMIT=b2e386662e4131e75f103bd1c129932ec11f575e</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=b2e386662e4131e75f103bd1c129932ec11f575e</string>
+            <string>GIT_URL=https://github.com/miguelmont/apple-clone.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1667542269265</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

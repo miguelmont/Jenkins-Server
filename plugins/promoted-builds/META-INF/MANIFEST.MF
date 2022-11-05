@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Jenkins promoted builds plugin
+Specification-Version: 0.0
+Implementation-Title: Jenkins promoted builds plugin
+Implementation-Version: 892.vd6219fc0a_efb
+Group-Id: org.jenkins-ci.plugins
+Short-Name: promoted-builds
+Long-Name: Jenkins promoted builds plugin
+Url: https://github.com/jenkinsci/promoted-builds-plugin
+Compatible-Since-Version: 4.0
+Plugin-Version: 892.vd6219fc0a_efb
+Hudson-Version: 2.319.3
+Jenkins-Version: 2.319.3
+Plugin-Dependencies: rebuild:1.34;resolution:=optional,project-inheritan
+ ce:21.04.03;resolution:=optional,maven-plugin:3.12;resolution:=optional
+ ,apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61,config-
+ file-provider:3.10.0;resolution:=optional,credentials:1087.1089.v2f1b_9
+ a_b_040e4,job-dsl:1.74;resolution:=optional,junit:1.54.3,script-securit
+ y:1138.v8e727069a_025,ssh-credentials:277.280.v1e86b_7d0056b_,structs:3
+ 24.va_f5d6774f3a_d,token-macro:308.v4f2b_ed62b_b_16;resolution:=optiona
+ l
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Peter Hayes:petehayes:,Ole
+ g Nenashev:oleg_nenashev:
+Plugin-License-Name: MIT
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/promoted-builds-plugin
+

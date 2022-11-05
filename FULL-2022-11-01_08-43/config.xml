@@ -1,0 +1,129 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.361.2</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
+    <roleMap type="globalRoles">
+      <role name="admin" pattern=".*">
+        <permissions>
+          <permission>hudson.model.Hudson.Administer</permission>
+        </permissions>
+        <assignedSIDs>
+          <sid>miguelmont</sid>
+        </assignedSIDs>
+      </role>
+      <role name="developer" pattern=".*">
+        <permissions>
+          <permission>hudson.model.View.Create</permission>
+          <permission>hudson.model.View.Delete</permission>
+          <permission>hudson.model.Item.Read</permission>
+          <permission>hudson.model.View.Read</permission>
+        </permissions>
+        <assignedSIDs/>
+      </role>
+    </roleMap>
+    <roleMap type="projectRoles"/>
+    <roleMap type="slaveRoles"/>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds>
+    <com.google.jenkins.plugins.computeengine.ComputeEngineCloud plugin="google-compute-engine@4.3.12">
+      <name>gce-gce</name>
+      <instanceCap>8</instanceCap>
+      <projectId>forward-emitter-352908</projectId>
+      <credentialsId>forward-emitter-352908</credentialsId>
+      <instanceId>bf454538-2d61-4315-b21a-439478201aba</instanceId>
+      <configurations>
+        <com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+          <description>Ubuntu agent</description>
+          <namePrefix>ubuntu-2004-gce</namePrefix>
+          <region>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1</region>
+          <zone>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-f</zone>
+          <machineType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-f/machineTypes/n1-standard-1</machineType>
+          <numExecutorsStr>3</numExecutorsStr>
+          <startupScript></startupScript>
+          <preemptible>false</preemptible>
+          <minCpuPlatform></minCpuPlatform>
+          <labels>ubuntu-2004-gce</labels>
+          <runAsUser>jenkins</runAsUser>
+          <bootDiskType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-f/diskTypes/pd-balanced</bootDiskType>
+          <bootDiskAutoDelete>true</bootDiskAutoDelete>
+          <bootDiskSourceImageName>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/images/jenkins-agent-1667202542</bootDiskSourceImageName>
+          <bootDiskSourceImageProject>forward-emitter-352908</bootDiskSourceImageProject>
+          <networkConfiguration class="com.google.jenkins.plugins.computeengine.AutofilledNetworkConfiguration">
+            <network>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/networks/default</network>
+            <subnetwork>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1/subnetworks/default</subnetwork>
+          </networkConfiguration>
+          <externalAddress>true</externalAddress>
+          <useInternalAddress>false</useInternalAddress>
+          <ignoreProxy>false</ignoreProxy>
+          <networkTags></networkTags>
+          <serviceAccountEmail>jenkins@forward-emitter-352908.iam.gserviceaccount.com</serviceAccountEmail>
+          <mode>EXCLUSIVE</mode>
+          <retentionTimeMinutesStr>6</retentionTimeMinutesStr>
+          <launchTimeoutSecondsStr>300</launchTimeoutSecondsStr>
+          <bootDiskSizeGbStr>50</bootDiskSizeGbStr>
+          <oneShot>false</oneShot>
+          <template></template>
+          <createSnapshot>false</createSnapshot>
+          <remoteFs></remoteFs>
+          <javaExecPath>java</javaExecPath>
+          <sshKeyCredential class="com.google.jenkins.plugins.computeengine.ssh.GoogleKeyPair">
+            <user>jenkins</user>
+            <privateKey>{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}</privateKey>
+            <publicKey>jenkins:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChXAEmUmHEBflEgqOI7DVYY5L30OPj91X6v8DJOsvREK4w+ELfy2oST5MF3fqjlCWGV3P9zyJ6g/DxPoS4PwBEGZkCJkLOOTsixPD9lx46PbtjprHILLKKaUH3ZmAkXwFh5AxjgtosfE00XYP0t2cxrJxPeNRX5yiztYhK6OPTFJs1JmIkgBV5hgbN6WFg91xOROzxEF6q/1utJPb3k/E7vS8FaeNe6lY/bsQUd2Hkb7wUntot+tNzb4/i9kQ80ly7GzLth9KjsqffhIORWv4HNfhvrZLisD527r6ownYizmRJyFCT0bmFYs31B3tBoGov/k1CYs4Pbaa5mxaq6P4n jenkins</publicKey>
+          </sshKeyCredential>
+          <googleLabels>
+            <entry>
+              <string>jenkins_cloud_id</string>
+              <string>bf454538-2d61-4315-b21a-439478201aba</string>
+            </entry>
+            <entry>
+              <string>jenkins_config_name</string>
+              <string>ubuntu-2004-gce</string>
+            </entry>
+          </googleLabels>
+          <numExecutors>3</numExecutors>
+          <retentionTimeMinutes>6</retentionTimeMinutes>
+          <launchTimeoutSeconds>300</launchTimeoutSeconds>
+          <bootDiskSizeGb>50</bootDiskSizeGb>
+        </com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+      </configurations>
+      <noDelayProvisioning>false</noDelayProvisioning>
+    </com.google.jenkins.plugins.computeengine.ComputeEngineCloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

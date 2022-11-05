@@ -1,0 +1,10 @@
+commit ef7273b29446ef4d2f4d1f85594c2c2f10c41adb
+tree 6c4e2c26e5b882f68173ca011a3d8d52d1425af5
+parent 6b39a402d876d8b492b0da9bd6c0393b1a6bb16a
+author Miguel Mont <imre027@gmail.com> 2022-11-04 02:31:46 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-04 02:31:46 -0600
+
+    testing inputs pipeline
+
+
+:100644 100644 04b1ea44734cd382889755fe55db5f7ff1da1604 662c4704b51b7b98ed199af547e85b79666e6a50 M	Jenkinsfile

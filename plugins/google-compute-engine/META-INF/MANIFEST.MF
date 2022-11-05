@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.346.1
+Plugin-Dependencies: credentials:1139.veb_9579fca_33b_,durable-task:49
+ 6.va67c6f9eefa7,google-oauth-plugin:1.0.3,jackson2-api:2.13.3-285.vc0
+ 3c0256d517,jsch:0.1.55.2,ssh-credentials:295.vced876c18eb_4,trilead-a
+ pi:1.67.vc3938a_35172f
+Implementation-Title: Google Compute Engine Plugin
+Long-Name: Google Compute Engine Plugin
+Implementation-Version: 4.3.12
+Group-Id: org.jenkins-ci.plugins
+Specification-Vendor: Google
+Plugin-License-Name: Apache License, Version 2.0
+Specification-Title: Google Compute Engine Plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/google-compute-engine-plug
+ in
+Plugin-Version: 4.3.12
+Jenkins-Version: 2.346.1
+Url: https://github.com/jenkinsci/google-compute-engine-plugin
+Implementation-Vendor: Google
+Short-Name: google-compute-engine
+Plugin-License-Url: https://www.apache.org/licenses/LICENSE-2.0.txt
+Compatible-Since-Version: 4.1.0
+Plugin-Developers: Don McCasland:donmccasland:donmccasland@google.com,
+ Tara Hernandez:tarahernandez:tarahernandez@google.com
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.6.0
+Specification-Version: 4.3
+

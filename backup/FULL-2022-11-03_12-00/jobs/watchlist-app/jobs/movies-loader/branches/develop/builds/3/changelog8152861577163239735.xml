@@ -1,0 +1,11 @@
+commit f18365e68a478ad27e4ba83616234e8a963580fb
+tree 1083ab2b0462924f41b61796514fd251aa9dd641
+parent 8ce97ea11436f9660fbca0b1dfbcad3f137d0585
+author Miguel Mont <imre027@gmail.com> 2022-11-02 01:48:37 -0600
+committer Miguel Mont <imre027@gmail.com> 2022-11-02 01:48:37 -0600
+
+    Adding unit test docker and pipeline
+
+
+:000000 100644 0000000000000000000000000000000000000000 8a6bee78b8b7c7d195ac891510adf358e4eae483 A	Dockerfile.test
+:100644 100644 2b9d78d42bdb820644c7dfcd6df65ef6834c33dd fcae9a655a192edbe93fa0e43683c0d2e93d51fa M	Jenkinsfile

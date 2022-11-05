@@ -1,0 +1,180 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>hudson.diagnosis.TooManyJobsButNoView</string>
+    <string>jenkins.diagnostics.ControllerExecutorsAgents</string>
+    <string>org.jenkinsci.plugins.rolestrategy.NamingStrategyAdministrativeMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.361.2</version>
+  <numExecutors>0</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.Create:authenticated</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:miguelmont</permission>
+    <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:authenticated</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:miguelmont</permission>
+    <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:authenticated</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:miguelmont</permission>
+    <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.Update:authenticated</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:miguelmont</permission>
+    <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.View:authenticated</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Build:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Build:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Configure:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Configure:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Connect:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Connect:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Create:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Create:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Delete:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Delete:miguelmont</permission>
+    <permission>GROUP:hudson.model.Computer.Disconnect:authenticated</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:miguelmont</permission>
+    <permission>GROUP:hudson.model.Hudson.Administer:authenticated</permission>
+    <permission>USER:hudson.model.Hudson.Administer:miguelmont</permission>
+    <permission>GROUP:hudson.model.Hudson.Read:authenticated</permission>
+    <permission>USER:hudson.model.Hudson.Read:anonymous</permission>
+    <permission>USER:hudson.model.Hudson.Read:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Build:authenticated</permission>
+    <permission>USER:hudson.model.Item.Build:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Cancel:authenticated</permission>
+    <permission>USER:hudson.model.Item.Cancel:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Configure:authenticated</permission>
+    <permission>USER:hudson.model.Item.Configure:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Create:authenticated</permission>
+    <permission>USER:hudson.model.Item.Create:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Delete:authenticated</permission>
+    <permission>USER:hudson.model.Item.Delete:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Discover:authenticated</permission>
+    <permission>USER:hudson.model.Item.Discover:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Move:authenticated</permission>
+    <permission>USER:hudson.model.Item.Move:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Read:authenticated</permission>
+    <permission>USER:hudson.model.Item.Read:anonymous</permission>
+    <permission>USER:hudson.model.Item.Read:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Release:authenticated</permission>
+    <permission>USER:hudson.model.Item.Release:miguelmont</permission>
+    <permission>GROUP:hudson.model.Item.Workspace:authenticated</permission>
+    <permission>USER:hudson.model.Item.Workspace:miguelmont</permission>
+    <permission>GROUP:hudson.model.Run.Delete:authenticated</permission>
+    <permission>USER:hudson.model.Run.Delete:miguelmont</permission>
+    <permission>GROUP:hudson.model.Run.Replay:authenticated</permission>
+    <permission>USER:hudson.model.Run.Replay:miguelmont</permission>
+    <permission>GROUP:hudson.model.Run.Update:authenticated</permission>
+    <permission>USER:hudson.model.Run.Update:miguelmont</permission>
+    <permission>GROUP:hudson.model.View.Configure:authenticated</permission>
+    <permission>USER:hudson.model.View.Configure:miguelmont</permission>
+    <permission>GROUP:hudson.model.View.Create:authenticated</permission>
+    <permission>USER:hudson.model.View.Create:miguelmont</permission>
+    <permission>GROUP:hudson.model.View.Delete:authenticated</permission>
+    <permission>USER:hudson.model.View.Delete:miguelmont</permission>
+    <permission>GROUP:hudson.model.View.Read:authenticated</permission>
+    <permission>USER:hudson.model.View.Read:anonymous</permission>
+    <permission>USER:hudson.model.View.Read:miguelmont</permission>
+    <permission>GROUP:hudson.plugins.promoted_builds.Promotion.Promote:authenticated</permission>
+    <permission>USER:hudson.plugins.promoted_builds.Promotion.Promote:miguelmont</permission>
+    <permission>GROUP:hudson.scm.SCM.Tag:authenticated</permission>
+    <permission>USER:hudson.scm.SCM.Tag:miguelmont</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <systemMessage>Jenkins Server on Google Cloud</systemMessage>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds>
+    <com.google.jenkins.plugins.computeengine.ComputeEngineCloud plugin="google-compute-engine@4.3.12">
+      <name>gce-gce</name>
+      <instanceCap>8</instanceCap>
+      <projectId>forward-emitter-352908</projectId>
+      <credentialsId>forward-emitter-352908</credentialsId>
+      <instanceId>bf454538-2d61-4315-b21a-439478201aba</instanceId>
+      <configurations>
+        <com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+          <description>Ubuntu agent</description>
+          <namePrefix>ubuntu-2004-gce</namePrefix>
+          <region>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1</region>
+          <zone>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a</zone>
+          <machineType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/machineTypes/n1-standard-1</machineType>
+          <numExecutorsStr>3</numExecutorsStr>
+          <startupScript></startupScript>
+          <preemptible>false</preemptible>
+          <minCpuPlatform></minCpuPlatform>
+          <labels>ubuntu-2004-gce</labels>
+          <runAsUser>jenkins</runAsUser>
+          <bootDiskType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/diskTypes/pd-balanced</bootDiskType>
+          <bootDiskAutoDelete>true</bootDiskAutoDelete>
+          <bootDiskSourceImageName>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/images/jenkins-agent-1667377892</bootDiskSourceImageName>
+          <bootDiskSourceImageProject>forward-emitter-352908</bootDiskSourceImageProject>
+          <networkConfiguration class="com.google.jenkins.plugins.computeengine.AutofilledNetworkConfiguration">
+            <network>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/networks/default</network>
+            <subnetwork>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1/subnetworks/default</subnetwork>
+          </networkConfiguration>
+          <externalAddress>true</externalAddress>
+          <useInternalAddress>false</useInternalAddress>
+          <ignoreProxy>false</ignoreProxy>
+          <networkTags></networkTags>
+          <serviceAccountEmail>jenkins@forward-emitter-352908.iam.gserviceaccount.com</serviceAccountEmail>
+          <mode>EXCLUSIVE</mode>
+          <retentionTimeMinutesStr>6</retentionTimeMinutesStr>
+          <launchTimeoutSecondsStr>300</launchTimeoutSecondsStr>
+          <bootDiskSizeGbStr>50</bootDiskSizeGbStr>
+          <oneShot>false</oneShot>
+          <template></template>
+          <createSnapshot>false</createSnapshot>
+          <remoteFs></remoteFs>
+          <javaExecPath>java</javaExecPath>
+          <sshKeyCredential class="com.google.jenkins.plugins.computeengine.ssh.GoogleKeyPair">
+            <user>jenkins</user>
+            <privateKey>{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}</privateKey>
+            <publicKey>jenkins:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMtPYs0b84QJF/j0bO6imlLnCiqfCvqLkL0pagLViQVd5w7HlHE1WJJZEGfzkRLmwGoCt/IsgCtzjhGsM/tbzpCaj0Bb0dm2JR0u/WTTfX+6v1BvDnjmTn2yjswlRZohRuJi24eI4vIHXwNOFaHPCqDLQmlpL0pWSW0MeJq3ARLB8qqWW/PjexmdWj0ZoiEVU0xk/LWG7e0nY0FxTsB806UtpF52TPbNjA4qACF9gMiQLcQkqppZOrQeTxqbu1di6UizYhDFF8Q4EJLjSZwguj6U6aLWmyw1HRCWYti6KMuKWPpLKS/6YF89UxcO9FygRPu63Ft4FLnRaYZkLPl7B jenkins</publicKey>
+          </sshKeyCredential>
+          <googleLabels>
+            <entry>
+              <string>jenkins_cloud_id</string>
+              <string>bf454538-2d61-4315-b21a-439478201aba</string>
+            </entry>
+            <entry>
+              <string>jenkins_config_name</string>
+              <string>ubuntu-2004-gce</string>
+            </entry>
+          </googleLabels>
+          <numExecutors>3</numExecutors>
+          <retentionTimeMinutes>6</retentionTimeMinutes>
+          <launchTimeoutSeconds>300</launchTimeoutSeconds>
+          <bootDiskSizeGb>50</bootDiskSizeGb>
+        </com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+      </configurations>
+      <noDelayProvisioning>false</noDelayProvisioning>
+    </com.google.jenkins.plugins.computeengine.ComputeEngineCloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

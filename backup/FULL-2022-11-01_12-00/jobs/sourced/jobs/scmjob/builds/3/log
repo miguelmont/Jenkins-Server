@@ -1,0 +1,25 @@
+Started by GitHub push by miguelmont
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sourced/scmjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sourced/scmjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/miguelmont/some_code.git # timeout=10
+Fetching upstream changes from https://github.com/miguelmont/some_code.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/miguelmont/some_code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 54d07c732592421a958b1558e3906b225f384848 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54d07c732592421a958b1558e3906b225f384848 # timeout=10
+Commit message: "adding a final line"
+ > git rev-list --no-walk 3c4387e9211082b26eacc44e9f06b93e623bf77a # timeout=10
+[scmjob] $ /bin/sh -xe /tmp/jenkins121295734247714421.sh
++ chmod +x ./testscript.sh
++ ./testscript.sh
+this script is from github
+21
+This is the end of the script
+Finished: SUCCESS

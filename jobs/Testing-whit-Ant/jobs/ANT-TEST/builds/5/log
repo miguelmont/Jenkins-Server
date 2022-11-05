@@ -1,0 +1,38 @@
+Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/miguelmont/some_java.git # timeout=10
+Fetching upstream changes from https://github.com/miguelmont/some_java.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/miguelmont/some_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a6e521057cf51bd3ab305cdd9fd758c76ce8c223 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a6e521057cf51bd3ab305cdd9fd758c76ce8c223 # timeout=10
+Commit message: "changes"
+ > git rev-list --no-walk a6e521057cf51bd3ab305cdd9fd758c76ce8c223 # timeout=10
+[ANT-TEST] $ /usr/share/ant/bin/ant junit
+Buildfile: /var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST/build.xml
+
+[8mha:////4NvZnkY9dkRvJQSvfYX+F3fb15MfjiXau/sIwa1RNAknAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtcomp:
+    [javac] /var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST/build.xml:13: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+[8mha:////4NvZnkY9dkRvJQSvfYX+F3fb15MfjiXau/sIwa1RNAknAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtjar:
+      [jar] Building jar: /var/lib/jenkins/workspace/Testing-whit-Ant/ANT-TEST/test/hello.jar
+
+[8mha:////4NvZnkY9dkRvJQSvfYX+F3fb15MfjiXau/sIwa1RNAknAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mjunit:
+    [junit] Running hellotest
+    [junit] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec
+    [junit] Test hellotest FAILED
+
+[8mha:////4J+Bm+zdAwYDkdhoc2youmz9Uo6vRO05ofyl0z8qRH2oAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 0 seconds
+Recording test results
+[Checks API] No suitable checks publisher found.
+Build step 'Publish JUnit test result report' changed build result to UNSTABLE
+Finished: UNSTABLE

@@ -1,0 +1,9 @@
+commit 7b15dcb658fdada5120017bd0512dd62d81c5032
+tree 57e853a54f4f8610c81da106eb598b277c1b7cc9
+parent b2e386662e4131e75f103bd1c129932ec11f575e
+author Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 00:10:56 -0600
+committer Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 00:10:56 -0600
+
+    Added Jenkinsfile
+
+:100644 100644 e8599ae57eb16eaa82723c099cd26ffb46ad7d29 bfe9d03b918c95d81e9509c99fa81a10b0a20789 M	Jenkinsfile

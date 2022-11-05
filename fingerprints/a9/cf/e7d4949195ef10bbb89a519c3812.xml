@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-04 07:16:42.577 UTC</timestamp>
+  <original>
+    <name>apple-clone/main</name>
+    <number>3</number>
+  </original>
+  <md5sum>a9cfe7d4949195ef10bbb89a519c3812</md5sum>
+  <fileName>estilos.css</fileName>
+  <usages>
+    <entry>
+      <string>apple-clone/main</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

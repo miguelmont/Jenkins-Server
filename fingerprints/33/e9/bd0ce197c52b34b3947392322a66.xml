@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-02 04:56:28.293 UTC</timestamp>
+  <md5sum>33e9bd0ce197c52b34b3947392322a66</md5sum>
+  <fileName>Credential id=github name=miguelmont/****** (github credentials)</fileName>
+  <usages>
+    <entry>
+      <string>watchlist-app/movies-loader/develop</string>
+      <ranges>1-8,10,12-22,24-25</ranges>
+    </entry>
+    <entry>
+      <string>watchlist-app/movies-parser/develop</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>watchlist-app/movies-store/develop</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>apple-clone/main</string>
+      <ranges>1-6,8</ranges>
+    </entry>
+    <entry>
+      <string>apple-clone/feature</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>watchlist-app/movies-marketplace/develop</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

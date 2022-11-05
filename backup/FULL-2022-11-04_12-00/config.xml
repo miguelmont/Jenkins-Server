@@ -1,0 +1,115 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>hudson.diagnosis.TooManyJobsButNoView</string>
+    <string>jenkins.diagnostics.ControllerExecutorsAgents</string>
+    <string>org.jenkinsci.plugins.rolestrategy.NamingStrategyAdministrativeMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.361.2</version>
+  <numExecutors>0</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>USER:hudson.model.Computer.Build:anonymous</permission>
+    <permission>USER:hudson.model.Hudson.Administer:miguelmont</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <systemMessage>Jenkins Server on Google Cloud</systemMessage>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds>
+    <com.google.jenkins.plugins.computeengine.ComputeEngineCloud plugin="google-compute-engine@4.3.12">
+      <name>gce-gce</name>
+      <instanceCap>8</instanceCap>
+      <projectId>forward-emitter-352908</projectId>
+      <credentialsId>forward-emitter-352908</credentialsId>
+      <instanceId>bf454538-2d61-4315-b21a-439478201aba</instanceId>
+      <configurations>
+        <com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+          <description>Ubuntu agent</description>
+          <namePrefix>ubuntu-2004-gce</namePrefix>
+          <region>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1</region>
+          <zone>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a</zone>
+          <machineType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/machineTypes/n1-standard-1</machineType>
+          <numExecutorsStr>3</numExecutorsStr>
+          <startupScript></startupScript>
+          <preemptible>false</preemptible>
+          <minCpuPlatform></minCpuPlatform>
+          <labels>ubuntu-2004-gce</labels>
+          <runAsUser>jenkins</runAsUser>
+          <bootDiskType>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/zones/us-central1-a/diskTypes/pd-balanced</bootDiskType>
+          <bootDiskAutoDelete>true</bootDiskAutoDelete>
+          <bootDiskSourceImageName>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/images/jenkins-agent-1667377892</bootDiskSourceImageName>
+          <bootDiskSourceImageProject>forward-emitter-352908</bootDiskSourceImageProject>
+          <networkConfiguration class="com.google.jenkins.plugins.computeengine.AutofilledNetworkConfiguration">
+            <network>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/global/networks/default</network>
+            <subnetwork>https://www.googleapis.com/compute/v1/projects/forward-emitter-352908/regions/us-central1/subnetworks/default</subnetwork>
+          </networkConfiguration>
+          <externalAddress>true</externalAddress>
+          <useInternalAddress>false</useInternalAddress>
+          <ignoreProxy>false</ignoreProxy>
+          <networkTags></networkTags>
+          <serviceAccountEmail>jenkins@forward-emitter-352908.iam.gserviceaccount.com</serviceAccountEmail>
+          <mode>EXCLUSIVE</mode>
+          <retentionTimeMinutesStr>6</retentionTimeMinutesStr>
+          <launchTimeoutSecondsStr>300</launchTimeoutSecondsStr>
+          <bootDiskSizeGbStr>50</bootDiskSizeGbStr>
+          <oneShot>false</oneShot>
+          <template></template>
+          <createSnapshot>false</createSnapshot>
+          <remoteFs></remoteFs>
+          <javaExecPath>java</javaExecPath>
+          <sshKeyCredential class="com.google.jenkins.plugins.computeengine.ssh.GoogleKeyPair">
+            <user>jenkins</user>
+            <privateKey>{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}</privateKey>
+            <publicKey>jenkins:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaivEFw44ECLNXgZc1SX/HKNLIYC4ntw8bSGLMycH/c6SxtAHARyDPqdtqQrJVg96XSccVBgN2Zb3oizrYsQglk8qCJDFz6OKmjA6PvJPvsbHhEIUbbNIIMPqoHyOiehMgXJSA/xcxxSZ5RBpbvDAu0xyNP3lYVr+tmrZJUT0KytsHhPF2t8AtMM0buzRfbtf4DydU2GacRSn1bT6/sNq2l/HITpsrvTnDTtnh7qGtpbvO+WedlnR7UMVKrjRKyacfKL+XwBIr3G0pMfYNG1iOiGHUqwKExykN0H1mI8UZTDVrE+Y0D8F9/Dqg/dKreEEnvcXF4yG+yilUZoUwYGAZ jenkins</publicKey>
+          </sshKeyCredential>
+          <googleLabels>
+            <entry>
+              <string>jenkins_cloud_id</string>
+              <string>bf454538-2d61-4315-b21a-439478201aba</string>
+            </entry>
+            <entry>
+              <string>jenkins_config_name</string>
+              <string>ubuntu-2004-gce</string>
+            </entry>
+          </googleLabels>
+          <numExecutors>3</numExecutors>
+          <retentionTimeMinutes>6</retentionTimeMinutes>
+          <launchTimeoutSeconds>300</launchTimeoutSeconds>
+          <bootDiskSizeGb>50</bootDiskSizeGb>
+        </com.google.jenkins.plugins.computeengine.InstanceConfiguration>
+      </configurations>
+      <noDelayProvisioning>false</noDelayProvisioning>
+    </com.google.jenkins.plugins.computeengine.ComputeEngineCloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

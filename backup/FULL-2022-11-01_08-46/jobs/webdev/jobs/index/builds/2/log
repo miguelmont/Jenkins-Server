@@ -1,0 +1,71 @@
+Started by user [8mha:////4OaAZWwgxEvLYja7E38eWQppF8zg49Ik+kqa96LV7+5DAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYB/dLi1CL93Mz00tSc3Py8EgBBQjXqxQAAAA==[0mMIGUEL ANGEL MONT LUKACS
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/webdev/index
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/webdev/index/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ACloudGuru-Resources/content-cje-prebuild.git # timeout=10
+Fetching upstream changes from https://github.com/ACloudGuru-Resources/content-cje-prebuild.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/ACloudGuru-Resources/content-cje-prebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1e6d0e68aa62b8ea6561f1e2d921d4b75d4311f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1e6d0e68aa62b8ea6561f1e2d921d4b75d4311f3 # timeout=10
+Commit message: "updated makeindex"
+ > git rev-list --no-walk 1e6d0e68aa62b8ea6561f1e2d921d4b75d4311f3 # timeout=10
+[index] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/bin/mvn clean package
+[INFO] Scanning for projects...
+[8mha:////4H9g/Kr2vNXqVKzZyCDPEC7/1Hv6ExF0eAAhPtCz89TjAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The project com.go.test:gohello:mvn-golang:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ------------------------< com.go.test:gohello >-------------------------
+[INFO] Building Hello GoLang 1.0-SNAPSHOT
+[INFO] -----------------------------[ mvn-golang ]-----------------------------
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:clean (default-clean) @ gohello ---
+[INFO] Prepared command line : bin/go clean
+[INFO] Deleting folder : /var/lib/jenkins/workspace/webdev/index/bin
+[INFO] 
+[8mha:////4IxRomscA7OLJzHSiytbqEkm5IUTRzyMBpMju0gHITPfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gohello ---
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:fix (default-fix) @ gohello ---
+[INFO] Prepared command line : bin/go fix ./...
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:get (default-get) @ gohello ---
+[INFO] Loading external package list file : /var/lib/jenkins/workspace/webdev/index/packages.txt
+[INFO] There are no packages to get
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:generate (default-generate) @ gohello ---
+[INFO] Prepared command line : bin/go generate ./...
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:fmt (default-fmt) @ gohello ---
+[INFO] Prepared command line : bin/go fmt ./...
+[INFO] 
+[INFO] ---------Exec.Out---------
+[INFO] makeindex.go
+[INFO] 
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:test (default-test) @ gohello ---
+[INFO] Prepared command line : bin/go test ./...
+[INFO] 
+[INFO] ---------Exec.Out---------
+[INFO] ?   	_/var/lib/jenkins/workspace/webdev/index/src	[no test files]
+[INFO] 
+[INFO] 
+[INFO] --- mvn-golang-wrapper:2.2.0:build (default-build) @ gohello ---
+[INFO] Prepared command line : bin/go build -buildmode=default -o /var/lib/jenkins/workspace/webdev/index/bin/makeindex makeindex.go
+[INFO] The Result file has been successfuly created : /var/lib/jenkins/workspace/webdev/index/bin/makeindex
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.999 s
+[INFO] Finished at: 2022-10-31T01:16:44Z
+[INFO] ------------------------------------------------------------------------
+[index] $ /bin/sh -xe /tmp/jenkins10247614430416476038.sh
++ bin/makeindex
+Archiving artifacts
+Recording fingerprints
+Triggering a new build of [8mha:////4Nr1kYgznHce20V9vRjwW4XViA5qiIrMakbtPYXu/iwDAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgZl/az8JP2kxOTs1LwUMLskPzc5sQSZCQBgLTIR2AAAAA==[0mbackend » tomcat » tomcat
+Finished: SUCCESS

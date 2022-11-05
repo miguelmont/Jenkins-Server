@@ -1,0 +1,27 @@
+commit 4615710bbc6313c2808a488df0b169333a9c0019
+tree 9191cb4eee394d80c2c4c1013e6ca8ffd787d8a4
+parent 01716dbe9f7e75ef7a56a9b1eaf84f9f37f3a638
+author Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 02:10:18 -0600
+committer Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 02:10:18 -0600
+
+    Added Jenkinsfile
+
+:100644 100644 177955c7a4a7d80affa291691c4b9b8a70b9e68a 97a7980e25798733cb95135914aa448317293968 M	Jenkinsfile
+commit 01716dbe9f7e75ef7a56a9b1eaf84f9f37f3a638
+tree bc7176be5de95cf57eb3b507ec9c9b8af66db695
+parent 3da6cb56f82de7c83dfe9536f01393e796c9fac9
+author Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 01:54:11 -0600
+committer Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 01:54:11 -0600
+
+    Added Jenkinsfile
+
+:100644 100644 d5fe65ce21eb8eec44deecb3f7f02152f94f4564 177955c7a4a7d80affa291691c4b9b8a70b9e68a M	Jenkinsfile
+commit 3da6cb56f82de7c83dfe9536f01393e796c9fac9
+tree 3423665eda7eaade350b31c92c9e04d78c7b8176
+parent d4a81b58ac3fcaccbb36f21de84bf838f14cc5ae
+author Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 01:22:06 -0600
+committer Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-11-04 01:22:06 -0600
+
+    Added Jenkinsfile
+
+:100644 100644 11ac405550bef609d644c633d039e619f2f78ea7 d5fe65ce21eb8eec44deecb3f7f02152f94f4564 M	Jenkinsfile

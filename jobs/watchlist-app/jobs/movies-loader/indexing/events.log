@@ -1,0 +1,460 @@
+[Wed Nov 02 06:30:16 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.144 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 06:30:11 UTC 2022
+[8mha:////4MvPqPV9/cOmn3z0qcq/6TunRgqeg1cEUlFLC88+nNYTAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLOUc7HwD2h9iVjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (22a3de3c383c6dbd5da8eca503ed7b5449b77b55 → 8ce97ea11436f9660fbca0b1dfbcad3f137d0585)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 06:30:17 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.144 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 06:30:11 UTC 2022 processed in 0.7 sec
+[Wed Nov 02 07:49:14 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.89 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:49:09 UTC 2022
+[8mha:////4LMbrwsP1va/icrT0aOXF+ILIDzmxqm0HkaQRnNmG9FoAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLecDltwBs06MQjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (8ce97ea11436f9660fbca0b1dfbcad3f137d0585 → f18365e68a478ad27e4ba83616234e8a963580fb)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 07:49:15 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.89 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:49:09 UTC 2022 processed in 0.78 sec
+[Wed Nov 02 07:51:47 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:51:42 UTC 2022
+[8mha:////4Emno44zLuJBrlFQmaNefbqIUI3t58xoX6UsRnZ3R6tqAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLebCmCQByDrkDjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (f18365e68a478ad27e4ba83616234e8a963580fb → 9c3a3e607bf21b5ee99eeedd7cfe66235b712663)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 07:51:48 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:51:42 UTC 2022 processed in 0.51 sec
+[Wed Nov 02 07:52:27 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.251 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:52:22 UTC 2022
+[8mha:////4BN2HcWkmlRuP1ds+HmqOK3KzJCgymnI9jW64FdY+ZpUAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLefAxPQArGD0njgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (9c3a3e607bf21b5ee99eeedd7cfe66235b712663 → a8d9d9b6c1f3066cf292589ff86dd6606786d60d)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 07:52:28 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.251 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:52:22 UTC 2022 processed in 0.5 sec
+[Wed Nov 02 07:55:39 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.111 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:55:34 UTC 2022
+[8mha:////4EB8byV6iFleRgWhivEPam0tyVX8llxtNEzkI7e+p3dGAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLedhmQQBOetjFjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (a8d9d9b6c1f3066cf292589ff86dd6606786d60d → fc3e4524e72b31707aaa91d5e41bef9c8af33360)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 07:55:40 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.111 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:55:34 UTC 2022 processed in 0.65 sec
+[Wed Nov 02 07:56:30 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.111 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:56:25 UTC 2022
+[8mha:////4JwrLw3ZHui18UcPnv6nUIymFMbqwZ/eEUbkR4LFetTjAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLeXhVIwA67y0ujgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (fc3e4524e72b31707aaa91d5e41bef9c8af33360 → ef60e9b742f4d3afadbfc35aec6d6440255b8387)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 07:56:31 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.111 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 07:56:25 UTC 2022 processed in 0.47 sec
+[Wed Nov 02 08:01:57 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.116 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 08:01:52 UTC 2022
+[8mha:////4F1fiZ+y6eQHWPRJRHCba47+KBuhaaSxqQUO+IIeoh4qAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLeUz5KgDWh2o7jgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (ef60e9b742f4d3afadbfc35aec6d6440255b8387 → 0caa64899e4a689c3618605279f125117c648731)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 08:01:58 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.116 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 08:01:52 UTC 2022 processed in 0.67 sec
+[Wed Nov 02 08:10:52 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.93 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 08:10:47 UTC 2022
+[8mha:////4MSlhEOa6tJHpTZbZ8SXrQWBzcqk5rd9YuS9vnjKTkToAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLecqCpwAnPAg5jgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (0caa64899e4a689c3618605279f125117c648731 → db8cdcef0cbd479742982b41bc35a74eb83cb53d)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 08:10:52 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.93 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 08:10:47 UTC 2022 processed in 0.62 sec
+[Wed Nov 02 09:07:34 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 09:07:29 UTC 2022
+[8mha:////4PFOmaSfmUd1v/NlkB7S7lDJd7Ff65a4L/uxkzKRY1NjAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL+YyuDwBQnmCHjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (db8cdcef0cbd479742982b41bc35a74eb83cb53d → 469eee78ff3639e816485dec852b4b0f7c3b68ca)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 09:07:35 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 09:07:29 UTC 2022 processed in 0.82 sec
+[Wed Nov 02 09:09:15 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.240 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 09:09:10 UTC 2022
+[8mha:////4Pk9wJKAG9nM93yj1pndeV62jCmf/WClBmUrYPdVCqEWAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL+SyRxwB0rJjvjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (469eee78ff3639e816485dec852b4b0f7c3b68ca → 31e1108c7eb439a9440b8032d41b341912b7ff3e)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Wed Nov 02 09:09:16 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.240 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Wed Nov 02 09:09:10 UTC 2022 processed in 0.54 sec
+[Thu Nov 03 02:04:50 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.240 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 02:04:45 UTC 2022
+[8mha:////4BIwIL4I4AePrYgcoIohyENrQMevsj1f21Pxw4XUYa0xAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLtfVDbgApW+66jgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (31e1108c7eb439a9440b8032d41b341912b7ff3e → c9e72fa1aa59ff5e1bcfca9bb49694233eebeb50)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Thu Nov 03 02:04:51 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.240 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 02:04:45 UTC 2022 processed in 0.75 sec
+[Thu Nov 03 02:10:57 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.105 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 02:10:52 UTC 2022
+[8mha:////4P4RxCHP16MmhvGlrw+PQNA3HnD/UgtdPeRAzIGGHu4yAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLtWNVDQDhAVy/jgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (c9e72fa1aa59ff5e1bcfca9bb49694233eebeb50 → ddbec0c642ba1d502e37730956d574c85c034798)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Thu Nov 03 02:10:58 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.105 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 02:10:52 UTC 2022 processed in 0.65 sec
+[Thu Nov 03 04:21:46 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.155 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 04:21:41 UTC 2022
+[8mha:////4JT2OcxIcPk7tgyJiwktnFzJpWLt1YT0F5otfS0ku2rLAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL9U7buQClKL5sjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (ddbec0c642ba1d502e37730956d574c85c034798 → 834902823f2ab106eed9ee996b0d314f8e0a59e2)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Thu Nov 03 04:21:46 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.155 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 04:21:41 UTC 2022 processed in 0.7 sec
+[Thu Nov 03 05:09:55 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.81 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 05:09:50 UTC 2022
+[8mha:////4LGaafD4wf7XF2EkvUGSOuERJBHAWit8KqOI5HgmaED7AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL9dPQnQAP+j+YjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (834902823f2ab106eed9ee996b0d314f8e0a59e2 → effeffd320d696f4e353bb9b392ff124478b0201)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Thu Nov 03 05:09:56 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.81 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 05:09:50 UTC 2022 processed in 0.75 sec
+[Thu Nov 03 05:21:11 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.85 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 05:21:06 UTC 2022
+[8mha:////4ISyd6emx3hw4+8aIrSqKnYMPHL418mhGDvyYILkkaQUAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL9ftFZwAQjTrujgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (effeffd320d696f4e353bb9b392ff124478b0201 → 5ec88228ba11fda817363db113b5a7052059eecb)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Thu Nov 03 05:21:11 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.85 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Thu Nov 03 05:21:06 UTC 2022 processed in 0.62 sec
+[Fri Nov 04 05:44:34 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 05:44:29 UTC 2022
+[8mha:////4CZznNGDVy37XCF6INw1ZnhakTHeaXX3d0RUvLc5a0qyAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLo3aWKgDu9OumjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (5ec88228ba11fda817363db113b5a7052059eecb → 70e183773ff38f6986025515fca03309ed345a09)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Fri Nov 04 05:44:35 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.90 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 05:44:29 UTC 2022 processed in 0.68 sec
+[Fri Nov 04 05:49:19 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.248 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 05:49:14 UTC 2022
+[8mha:////4OPuqW7CzMFaoZPykuxAeiv2sUxdT4WxWBuf9UPQq02LAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSLo/7BpQAwuqkBjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (70e183773ff38f6986025515fca03309ed345a09 → 6a55b8b07707e473e8ea49d51690a848b4cfac93)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Fri Nov 04 05:49:20 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.248 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 05:49:14 UTC 2022 processed in 0.61 sec
+[Fri Nov 04 07:56:33 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.123 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 07:56:28 UTC 2022
+[8mha:////4NKtqKBnnqHxpZ6d58oooTCVoiERqLxDfRpkmKRcRT34AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL4xKbyQA4RGGCjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (6a55b8b07707e473e8ea49d51690a848b4cfac93 → 43a416668510bd88ec0b886573ba437c06f5c8a6)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Fri Nov 04 07:56:33 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.123 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 07:56:28 UTC 2022 processed in 0.65 sec
+[Fri Nov 04 07:57:56 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.248 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 07:57:51 UTC 2022
+[8mha:////4ImPfptNcJNoz5DTS74c4xaz1PEtkx9h/2NYlhcvtHLJAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL49LmDgCUVZtqjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (43a416668510bd88ec0b886573ba437c06f5c8a6 → 6b39a402d876d8b492b0da9bd6c0393b1a6bb16a)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Fri Nov 04 07:57:57 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.248 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 07:57:51 UTC 2022 processed in 0.48 sec
+[Fri Nov 04 08:31:55 UTC 2022] Received Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.251 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 08:31:50 UTC 2022
+[8mha:////4DJt1Uu3iUhOeenTHZX1eawPQViQQJUCbDaA5lucTrU7AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSL45H5twAGmZxAjgAAAA==[0mConnecting to https://api.github.com using miguelmont/****** (github credentials)
+Examining [8mha:////4GvLG0cr1pCohU7MAodx+Kqr11CyCRWg6Cz76wVk39ecAAAAtB+LCAAAAAAAAP9djLsNwjAURR9BMAAloqVM3CEESkUDUkTDBCaxbMPzR/ZzCGuwBjQMwTjsQBAdp7mnuefxhlEMMFOpic4WtbPRoSi2Vy8CanveOxKL8v4sb/6VQbaDMQorSVUwTAEJJtWJt5wht5IdKGgr112A6V9u89tvDH4MMoDO9zInWCoiH1eMSU0qHfuXYUbLJNA4S+zCqVaoI+Xc+9y4VouIjjcifAA9Woz8vQAAAA==[0mmiguelmont/watchlist-app-moviesloader
+
+  Checking branches...
+
+  Getting remote branch develop...
+
+    Checking branch [8mha:////4JlPtSMw/qDUPHCcl8dyUJE4pfS0tnjZd9ORO65Lo9BYAAAAux+LCAAAAAAAAP9djLENwjAQRY8goKdErJC4owClQkggRTRMYJKTbbjYln0JYQ3WgIYhGIcdCKLjNf81/z3eMIoB5rqporNZ6Wx0hNn26jGQsee9Y1zk92d+868Ekh2MCa1iXcCwCcQwLU6ylYKkVeLAwVi16gLM/nLr335j8GOQAHS+lwnDRjP7uBRCGdbNsX/VojaqQaqdZXGRXGoykVPpfVq71mAkJysMggOiqLBFcv4DKXFRjcoAAAA=[0mdevelop
+
+  Getting remote pull requests from branch develop...
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (6b39a402d876d8b492b0da9bd6c0393b1a6bb16a → ef7273b29446ef4d2f4d1f85594c2c2f10c41adb)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining miguelmont/watchlist-app-moviesloader
+
+[Fri Nov 04 08:31:56 UTC 2022] Push event to branch develop in repository miguelmont/watchlist-app-moviesloader UPDATED event from 140.82.115.251 ⇒ http://34.123.115.205:8080/github-webhook/ with timestamp Fri Nov 04 08:31:50 UTC 2022 processed in 0.71 sec

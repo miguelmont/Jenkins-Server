@@ -1,0 +1,85 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1249.v7d974144cc14">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>miguelmont</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@621.vda_a_b_055e58f7">
+      <sourceId>e27a4c74-2ea8-49ee-8716-8c9d36cc513d</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@4.12.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@1695.v88de84e9f6b_9">
+          <name>develop</name>
+        </head>
+        <hash>db8cdcef0cbd479742982b41bc35a74eb83cb53d</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@613.v9c41a_160233f">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueTaskCancelled plugin="workflow-durable-task-step@1210.va_1e5d77e122b"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>132</queueId>
+  <timestamp>1667377692210</timestamp>
+  <startTime>1667377692214</startTime>
+  <result>ABORTED</result>
+  <duration>330589</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>def imageName = &apos;miguelmont/movies-loader&apos;
+
+node(&apos;ubuntu-2004-gce&apos;){
+    stage(&apos;Checkout&apos;){
+        checkout scm
+    }
+
+    stage(&apos;Unit Tests&apos;){
+        sh &quot;docker build -t ${imageName}-test -f Dockerfile.test .&quot;
+        sh &quot;docker run --rm ${imageName}-test&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>55418538</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>94713492</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>85873588</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>63605284</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>9467878</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>5</iota>
+    <head>1:5</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

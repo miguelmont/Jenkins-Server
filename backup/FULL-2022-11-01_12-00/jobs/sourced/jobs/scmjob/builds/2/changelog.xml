@@ -1,0 +1,9 @@
+commit 3c4387e9211082b26eacc44e9f06b93e623bf77a
+tree 2d427c24e3e14f18ea4f878242da8fa2ef59c107
+parent 21a9fc226d03350edd346c76165f73325701b4fd
+author Miguel Lukacs <37756240+miguelmont@users.noreply.github.com> 2022-10-28 02:46:00 -0500
+committer GitHub <noreply@github.com> 2022-10-28 02:46:00 -0500
+
+    delete a message
+
+:100644 100644 3f4080ce40af3a39e12477665229dc2e29f6bda8 f815beeb573233918eab110cd84fda227986e7bd M	testscript.sh
